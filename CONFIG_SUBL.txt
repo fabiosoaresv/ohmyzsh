@@ -1,4 +1,7 @@
 // APPs DEFAULT
+# My theme
+https://github.com/fabiosoaresv/ohmyzsh/blob/master/themes/pyhooma.zsh-theme
+
 # Terminal
 brew install rbenv
 rbenv install 1.9.3-p551
