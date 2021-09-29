@@ -15,15 +15,23 @@ exec $SHELL
 // Enter config: Sublime Text -> Preferences -> Settings
 // Packages to install (command + shift + P): AutoFileName, TestRspec, emment, Alignment, sublimelinter, rubocop, sidebar
 
+Install theme Package Install: Theme - Afterglow
 {
+  "auto_indent": true,
+  "smart_indent": true,
+  "scroll_speed": 1.0,
+  "detect_indentation": true,
+  "ensure_newline_at_eof_on_save": true,
+  "default_encoding": "UTF-8",
+  "auto_close_tags": true,
+  "dictionary": "Packages/Language - English/en_US.dic",
   "always_show_minimap_viewport": true,
   "auto_complete": true,
   "auto_complete_commit_on_tab": true,
   "auto_complete_selector": "text.html.erb",
   "bold_folder_labels": true,
-  "color_scheme": "Monokai.sublime-color-scheme",
-  //"command": "toggle_side_bar",
-  "ensure_newline_at_eof_on_save": true,
+  "color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme",
+  "command": "toggle_side_bar",
   "folder_exclude_patterns":
   [
     "node_modules",
@@ -38,7 +46,7 @@ exec $SHELL
   "font_size": 22,
   "ignored_packages":
   [
-    "Vintage"
+    "Vintage",
   ],
   "index_files": true,
   "keys":
@@ -59,10 +67,10 @@ exec $SHELL
     80
   ],
   "show_full_path": true,
-  "tab_size": 2,
+  "tab_size": 4,
   "translate_tabs_to_spaces": true,
   "trim_trailing_white_space_on_save": true,
-  "use_simple_full_screen": true
+  "use_simple_full_screen": true,
 }
 
 // Enter config: Sublime Text -> Preferences -> Key Bindings
