@@ -30,6 +30,7 @@ Install theme Package Install: Theme - Afterglow
   "auto_complete_commit_on_tab": true,
   "auto_complete_selector": "text.html.erb",
   "bold_folder_labels": true,
+  "theme": "Afterglow.sublime-theme",
   "color_scheme": "Packages/Theme - Afterglow/Afterglow.tmTheme",
   "command": "toggle_side_bar",
   "folder_exclude_patterns":
